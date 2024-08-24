@@ -22,4 +22,4 @@
 **要安装此插件，需要在设置内将PSV设置为 Half 或 None。**
 
 ### 签名
-**在[AcFun Evolved Plugins](https://github.com/wenzi7777/AcFun-Evolved-Plugins)仓库提出pull request，提交您的entry.js与manifest.js即可发布插件，您的插件将被签名，随后在Plugin Store内可见。**
+**在[AcFun Evolved Plugins](https://github.com/wenzi7777/acev2_plugins)仓库提出pull request，提交您的entry.js与manifest.js即可发布插件，您的插件将被签名，随后在Plugin Store内可见。**

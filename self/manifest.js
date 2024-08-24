@@ -1,5 +1,5 @@
 export const manifest = {
-    icon: 'default',
+    icon: 'defaultIcon',
     name: 'Test Plugin',
     id: '@test/plugin',
     versions: ['0.0.1'],
@@ -8,7 +8,7 @@ export const manifest = {
     updatedAt: new Date().getTime() + '',
     author: 'wenzi7777',
     copyright: '(c)2024 wenzi7777, licensed under the MIT License.',
-    requestedAPIs: ['showDialog'],
+    requestedAPIs: ['showDialog', 'ACEV2Log'],
     website: 'https://acev2.test.plugin/',
     trigger: {
         receiveHandler: false,

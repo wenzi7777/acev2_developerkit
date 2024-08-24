@@ -1,11 +1,13 @@
-const testPlugin = async (showDialog, manifest, getSelfPreference) => {
+const testPlugin = async (showDialog, manifest, ACEV2Log, getSelfPreference) => {
     showDialog({
-        title: 'Hello，AcFun Evolved!',
+        title: 'Hello，AcFun Evolved Runtime V2!',
         content: '你成功执行了一个插件。',
         okAction: () => {
-            console.log(JSON.stringify(getSelfPreference({manifest})))
+            ACEV2Log.success({
+                message: JSON.stringify(getSelfPreference({manifest}))
+            })
         }
     })
 }
 
-testPlugin(showDialog, manifest, getSelfPreference)
+testPlugin(showDialog, manifest, ACEV2Log, getSelfPreference)
